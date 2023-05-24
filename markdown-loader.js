@@ -5,6 +5,6 @@ var marked  = require('marked')
 
 module.exports = source=>{
     const html = marked.marked(source);
-    console.log(html)
+    // console.log(html)
     return `module.exports =${JSON.stringify(html)}`
 }
