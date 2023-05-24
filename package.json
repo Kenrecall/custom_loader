@@ -12,5 +12,10 @@
   },
   "devDependencies": {
     "marked": "^5.0.2"
-  }
+  },
+  "sideEffects":[
+    "./src/extend.js",
+    "*.css"
+  ]
+
 }

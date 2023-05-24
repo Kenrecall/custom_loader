@@ -6,6 +6,8 @@ export default  function(innerHTML ="Hello World !"){
     })
 
     return element
+
+    console.log(111)
 }
 
-export const a =1;
+export const asssssssss_console =1;
